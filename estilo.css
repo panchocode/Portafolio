@@ -5,3 +5,8 @@
   list-style: none;
   text-decoration: none;
 }
+.navbar {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
