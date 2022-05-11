@@ -1,13 +1,48 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
   list-style: none;
   text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
 }
-.navbar {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  display: none;
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh 100vh 100vh 100vh;
+  grid-template-areas:
+    "inicio"
+    "portafolio"
+    "skills"
+    "contacto";
+}
+/* colores
+azul claro#5568fe
+azul oscuro #313a56
+seleste #e7edff
+marmol #f8f1ff */
+#inicio {
+  grid-area: inicio;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+#portafolio {
+  grid-area: portafolio;
+}
+#skills {
+  grid-area: skills;
+}
+#contacto {
+  grid-area: contacto;
 }

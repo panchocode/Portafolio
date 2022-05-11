@@ -4,31 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- boxicon -->
     <link
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
     <link rel="stylesheet" href="estilo.css" />
     <title>José Sánchez</title>
   </head>
   <body>
     <div class="contenedor">
-      <nav class="navbar">
-        <ul class="lista">
-          <li><a href="">Inicio</a></li>
-          <li><a href="">Resumen</a></li>
-          <li><a href="">Portafolio</a></li>
-          <li><a href="">Contacto</a></li>
-        </ul>
-      </nav>
       <header id="header">
+        <nav class="navbar">
+          <ul class="lista">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <button class="ham" type="button">
+            <span class="br-1"></span>
+            <span class="br-2"></span>
+            <span class="br-3"></span>
+          </button>
+        </nav>
+      </header>
+      <section id="inicio">
         <h1>Hola</h1>
         <h2>soy José</h2>
         <p>Programador Front-end</p>
-      </header>
-      <section id="resumen">
-        <h1>Resumen</h1>
+      </section>
+      <section id="portafolio">
+        <h1>Portafolio</h1>
+      </section>
+      <section id="skills">
+        <h1>Skills</h1>
+      </section>
+      <section id="contacto">
+        <h1>Contacto</h1>
       </section>
     </div>
+    <script src="./code.js"></script>
   </body>
 </html>
