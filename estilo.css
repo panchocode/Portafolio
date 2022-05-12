@@ -49,25 +49,7 @@ html {
 .x-ico {
   display: none;
 }
-/* mediaueriz------------------------------ */
-@media (max-width: 768px) {
-  .lista {
-    flex-direction: column;
-    height: 300px;
-    width: 140px;
-    display: none;
-    margin-top: 40px;
-  }
-  .menu-ico {
-    display: block;
-  }
-  html {
-    font-size: 1rem;
-  }
-}
-.mostrar-lista {
-  display: flex;
-}
+
 /* grid----------------------------------- */
 .contenedor {
   display: grid;
@@ -85,6 +67,8 @@ azul claro#5568fe
 azul oscuro #313a56
 seleste #e7edff
 marmol #f8f1ff */
+
+/* inicio----------------------------- */
 #inicio {
   grid-area: inicio;
   background-image: linear-gradient(
@@ -105,6 +89,10 @@ marmol #f8f1ff */
 .foto img {
   border-radius: 50%;
 }
+.texto {
+  text-align: center;
+}
+/* portafolio------------------------------ */
 #portafolio {
   grid-area: portafolio;
 }
@@ -113,4 +101,23 @@ marmol #f8f1ff */
 }
 #contacto {
   grid-area: contacto;
+}
+/* mediaueriz------------------------------ */
+@media (max-width: 768px) {
+  .lista {
+    flex-direction: column;
+    height: 300px;
+    width: 140px;
+    display: none;
+    margin-top: 40px;
+  }
+  .menu-ico {
+    display: block;
+  }
+  html {
+    font-size: 1rem;
+  }
+}
+.mostrar-lista {
+  display: flex;
 }
