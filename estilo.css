@@ -17,9 +17,7 @@ html {
   right: 8px;
 }
 .lista {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  cc
   height: 40px;
   background-color: #313a56;
   border-radius: 6px;
@@ -53,7 +51,6 @@ html {
 /* grid----------------------------------- */
 .contenedor {
   display: grid;
-  width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 100vh 100vh 100vh 100vh;
   grid-template-areas:
@@ -96,8 +93,22 @@ marmol #f8f1ff */
 #portafolio {
   grid-area: portafolio;
 }
+/* ---skills---------------------------------- */
 #skills {
   grid-area: skills;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.skill-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.img {
+  width: 100px;
 }
 #contacto {
   grid-area: contacto;
