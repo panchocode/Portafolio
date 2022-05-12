@@ -71,11 +71,11 @@ marmol #f8f1ff */
 #inicio {
   grid-area: inicio;
   background-image: linear-gradient(
-      to top,
-      rgba(207, 217, 223, 0.767) 0%,
-      rgba(226, 235, 240, 0.767) 100%
+      120deg,
+      rgba(224, 195, 252, 0.589) 0%,
+      rgba(142, 197, 252, 0.575) 100%
     ),
-    url(./img/tapiz-header.jpg);
+    url(./img/fondo-header-2.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
