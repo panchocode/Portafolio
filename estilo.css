@@ -90,7 +90,16 @@ seleste #e7edff
 marmol #f8f1ff */
 #inicio {
   grid-area: inicio;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-image: linear-gradient(
+      to top,
+      rgba(207, 217, 223, 0.767) 0%,
+      rgba(226, 235, 240, 0.767) 100%
+    ),
+    url(./img/tapiz-header.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #portafolio {
   grid-area: portafolio;
