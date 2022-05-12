@@ -60,22 +60,16 @@ body {
   .lista {
     flex-direction: column;
     height: 300px;
-    width: 160px;
+    width: 140px;
     display: none;
+    margin-top: 40px;
   }
-
   .menu-ico {
     display: block;
   }
 }
 .mostrar-lista {
   display: flex;
-}
-.mostrar {
-  display: block;
-}
-.ocultar {
-  display: none;
 }
 /* grid----------------------------------- */
 .contenedor {
