@@ -17,10 +17,12 @@ html {
   right: 8px;
 }
 .lista {
-  cc
   height: 40px;
   background-color: #313a56;
   border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .lista a {
   color: white;
@@ -51,7 +53,7 @@ html {
 /* grid----------------------------------- */
 .contenedor {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
   grid-template-rows: 100vh 100vh 100vh 100vh;
   grid-template-areas:
     "inicio"
@@ -96,6 +98,10 @@ marmol #f8f1ff */
 /* ---skills---------------------------------- */
 #skills {
   grid-area: skills;
+}
+.skill {
+  margin-top: 100px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -110,6 +116,13 @@ marmol #f8f1ff */
 .img {
   width: 100px;
 }
+.titulo {
+  background-color: #5568fe;
+  font-size: 2rem;
+  padding: 10px 0;
+  text-align: center;
+}
+/* ---------contacto------------------------- */
 #contacto {
   grid-area: contacto;
 }
