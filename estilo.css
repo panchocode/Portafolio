@@ -41,7 +41,42 @@ body {
   padding: 4px;
   transition: 0.2s ease-in-out;
 }
+.menu-ico,
+.x-ico {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.menu-ico {
+  display: none;
+}
+.x-ico {
+  display: none;
+}
+/* mediaueriz------------------------------ */
+@media (max-width: 768px) {
+  .lista {
+    flex-direction: column;
+    height: 300px;
+    width: 160px;
+    display: none;
+  }
 
+  .menu-ico {
+    display: block;
+  }
+}
+.mostrar-lista {
+  display: flex;
+}
+.mostrar {
+  display: block;
+}
+.ocultar {
+  display: none;
+}
 /* grid----------------------------------- */
 .contenedor {
   display: grid;
