@@ -99,23 +99,6 @@ marmol #f8f1ff */
 #skills {
   grid-area: skills;
 }
-.skill {
-  margin-top: 100px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.skill-box {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
-.img {
-  width: 100px;
-}
 .titulo {
   background-color: #5568fe;
   font-size: 2rem;
