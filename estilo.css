@@ -35,8 +35,7 @@ html {
   padding: 4px;
   transition: 0.2s ease-in-out;
 }
-.menu-ico,
-.x-ico {
+.menu-ico {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -46,9 +45,7 @@ html {
 .menu-ico {
   display: none;
 }
-.x-ico {
-  display: none;
-}
+
 
 /* grid----------------------------------- */
 .contenedor {
