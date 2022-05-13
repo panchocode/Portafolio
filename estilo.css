@@ -35,8 +35,7 @@ html {
   padding: 4px;
   transition: 0.2s ease-in-out;
 }
-.menu-ico,
-.x-ico {
+.menu-ico {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -44,9 +43,6 @@ html {
   cursor: pointer;
 }
 .menu-ico {
-  display: none;
-}
-.x-ico {
   display: none;
 }
 
@@ -66,7 +62,9 @@ azul claro#5568fe
 azul oscuro #313a56
 seleste #e7edff
 marmol #f8f1ff */
-
+.fondo {
+  background-color: #ecdffa;
+}
 /* inicio----------------------------- */
 #inicio {
   grid-area: inicio;
@@ -87,6 +85,7 @@ marmol #f8f1ff */
 }
 .foto img {
   border-radius: 50%;
+  margin-top: 30px;
 }
 .texto {
   text-align: center;
@@ -99,28 +98,27 @@ marmol #f8f1ff */
 #skills {
   grid-area: skills;
 }
-.skill {
-  margin-top: 100px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.skill-box {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
-.img {
-  width: 100px;
-}
 .titulo {
   background-color: #5568fe;
   font-size: 2rem;
   padding: 10px 0;
   text-align: center;
+}
+.bio {
+  text-align: justify;
+  padding: 20px;
+  width: 50%;
+}
+
+.icon-box img {
+  width: 100px;
+  margin: 20px;
+}
+.about-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 100px;
 }
 /* ---------contacto------------------------- */
 #contacto {
@@ -133,7 +131,7 @@ marmol #f8f1ff */
     height: 300px;
     width: 140px;
     display: none;
-    margin-top: 40px;
+    margin-top: 56px;
   }
   .menu-ico {
     display: block;
