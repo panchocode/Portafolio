@@ -72,7 +72,7 @@ marmol #f8f1ff */
       rgba(224, 195, 252, 0.589) 0%,
       rgba(142, 197, 252, 0.575) 100%
     ),
-    url(./img/fondo-header-2.jpg);
+    url(./img/inicio-tapiz.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -114,9 +114,8 @@ marmol #f8f1ff */
   width: 100px;
 }
 .titulo {
-  background-color: #5568fe;
+  margin-top: 70px;
   font-size: 2rem;
-  padding: 10px 0;
   text-align: center;
 }
 /* ---------contacto------------------------- */
