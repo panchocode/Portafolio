@@ -94,7 +94,7 @@ marmol #f8f1ff */
 #portafolio {
   grid-area: portafolio;
 }
-/* ---skills---------------------------------- */
+/* ---About---------------------------------- */
 #skills {
   grid-area: skills;
 }
@@ -139,6 +139,16 @@ marmol #f8f1ff */
   html {
     font-size: 1rem;
   }
+  .about-box {
+    flex-direction: column;
+  }
+  .bio {
+    width: 100%;
+  }
+  .icon-box img {
+    width: 60px;
+  }
+  /* varios----------------------------*/
 }
 .mostrar-lista {
   display: flex;
