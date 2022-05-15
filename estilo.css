@@ -55,7 +55,7 @@ html {
   grid-template-areas:
     "inicio"
     "portafolio"
-    "skills"
+    "bio"
     "contacto";
 }
 /* colores
@@ -92,11 +92,11 @@ marmol #f8f1ff */
 #portafolio {
   grid-area: portafolio;
 }
-/* ---skills---------------------------------- */
-#skills {
-  grid-area: skills;
+/* ---about---------------------------------- */
+#bio {
+  grid-area: bio;
 }
-.skill {
+.bio {
   margin-top: 100px;
   height: 500px;
   display: flex;
@@ -104,7 +104,7 @@ marmol #f8f1ff */
   justify-content: space-around;
   align-items: center;
 }
-.skill-box {
+.bio-box {
   display: flex;
   justify-content: space-around;
   align-items: center;
