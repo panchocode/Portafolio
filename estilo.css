@@ -96,28 +96,12 @@ marmol #f8f1ff */
 #bio {
   grid-area: bio;
 }
-.bio {
-  margin-top: 100px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.parrafo{
+  text-align: justify;
+  width: 50%;
+  padding: 20px;
 }
-.bio-box {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
-.img {
-  width: 100px;
-}
-.titulo {
-  margin-top: 70px;
-  font-size: 2rem;
-  text-align: center;
-}
+
 /* ---------contacto------------------------- */
 #contacto {
   grid-area: contacto;
@@ -138,6 +122,12 @@ marmol #f8f1ff */
     font-size: 1rem;
   }
 }
+/* -----varios------------------ */
 .mostrar-lista {
   display: flex;
+}
+.titulo {
+  margin: 70px 0;
+  font-size: 2rem;
+  text-align: center;
 }
