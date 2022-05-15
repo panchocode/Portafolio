@@ -121,6 +121,9 @@ marmol #f8f1ff */
   html {
     font-size: 1rem;
   }
+  .foto img{
+    width: 200px;
+  }
 }
 /* -----varios------------------ */
 .mostrar-lista {
