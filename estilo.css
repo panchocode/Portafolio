@@ -21,8 +21,8 @@ html {
 
 .lista {
   height: 40px;
-  background-color: #313a56;
   border-radius: 6px;
+  background: #313a56;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -140,7 +140,7 @@ marmol #f8f1ff */
 
 .form p {
   text-align: justify;
-  width: 500px;
+  width: 90%;
 }
 
 /* mediaueriz------------------------------ */
@@ -178,6 +178,16 @@ marmol #f8f1ff */
 
   .foto img {
     width: 200px;
+  }
+
+  .form {
+    height: 300px;
+    width: 340px
+  }
+
+  .form h2 {
+    text-align: justify;
+    padding: 10px;
   }
 }
 
