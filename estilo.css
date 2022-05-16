@@ -128,6 +128,21 @@ marmol #f8f1ff */
   grid-area: contacto;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  width: 640px;
+  margin: 0 auto;
+}
+
+.form p {
+  text-align: justify;
+  width: 500px;
+}
+
 /* mediaueriz------------------------------ */
 @media (max-width: 768px) {
   .lista {
@@ -137,24 +152,30 @@ marmol #f8f1ff */
     display: none;
     margin-top: 40px;
   }
+
   .menu-ico {
     display: block;
   }
+
   html {
     font-size: 1rem;
   }
-  .bio{
+
+  .bio {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  .parrafo{
+
+  .parrafo {
     width: 90%;
   }
+
   .logos img {
     width: 40px;
   }
+
   .foto img {
     width: 200px;
   }
