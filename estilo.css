@@ -60,7 +60,7 @@ html {
 }
 /* colores
 azul claro#5568fe
-azul oscuro #313a56
+azul oscuro ccccc
 seleste #e7edff
 marmol #f8f1ff */
 
@@ -133,4 +133,8 @@ marmol #f8f1ff */
   margin: 70px 0;
   font-size: 2rem;
   text-align: center;
+}
+.fondo {
+  background-color: #e7edff;
+  
 }
