@@ -102,6 +102,27 @@ marmol #f8f1ff */
   grid-area: portafolio;
 }
 
+.porta-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articulo {
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.articulo img {
+  width: 250px;
+}
+
+.articulo:hover {
+  padding: 15px;
+  transition: 0.2s ease-in-out;
+}
+
 /* ---about---------------------------------- */
 #bio {
   grid-area: bio;
