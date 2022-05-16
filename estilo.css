@@ -195,6 +195,9 @@ marmol #f8f1ff */
 .mostrar-lista {
   display: flex;
 }
+.ocultar-lista {
+  display: none;
+}
 
 .titulo {
   margin: 70px 0;

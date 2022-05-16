@@ -5,3 +5,8 @@ const lista = document.querySelector(".lista");
 menu.addEventListener("click", () => {
   lista.classList.toggle("mostrar-lista");
 });
+
+//ocultar menu
+lista.addEventListener("click", () => {
+  lista.classList.toggle("mostrar-lista");
+});
