@@ -186,7 +186,7 @@ marmol #f8f1ff */
   }
 
   .form h2 {
-    text-align: justify;
+    text-align: center;
     padding: 10px;
   }
 }
@@ -194,9 +194,6 @@ marmol #f8f1ff */
 /* -----varios------------------ */
 .mostrar-lista {
   display: flex;
-}
-.ocultar-lista {
-  display: none;
 }
 
 .titulo {
