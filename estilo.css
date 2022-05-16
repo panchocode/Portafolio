@@ -6,16 +6,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
   font-size: 1.5rem;
 }
+
 /* navbar--------------------------------- */
 .navbar {
   position: fixed;
   top: 8px;
   right: 8px;
 }
+
 .lista {
   height: 40px;
   background-color: #313a56;
@@ -24,10 +27,12 @@ html {
   justify-content: space-around;
   align-items: center;
 }
+
 .lista a {
   color: white;
   margin: 0 10px;
 }
+
 .lista a:hover {
   background-color: black;
   border-radius: 5px;
@@ -35,6 +40,7 @@ html {
   padding: 4px;
   transition: 0.2s ease-in-out;
 }
+
 .menu-ico {
   position: absolute;
   top: 8px;
@@ -42,6 +48,7 @@ html {
   font-size: 1.8rem;
   cursor: pointer;
 }
+
 .menu-ico {
   display: none;
 }
@@ -58,6 +65,7 @@ html {
     "bio"
     "contacto";
 }
+
 /* colores
 azul claro#5568fe
 azul oscuro ccccc
@@ -67,11 +75,9 @@ marmol #f8f1ff */
 /* inicio----------------------------- */
 #inicio {
   grid-area: inicio;
-  background-image: linear-gradient(
-      120deg,
+  background-image: linear-gradient(120deg,
       rgba(224, 195, 252, 0.589) 0%,
-      rgba(142, 197, 252, 0.575) 100%
-    ),
+      rgba(142, 197, 252, 0.575) 100%),
     url(./img/inicio-tapiz.jpg);
   background-position: center;
   background-attachment: fixed;
@@ -82,21 +88,36 @@ marmol #f8f1ff */
   justify-content: center;
   align-items: center;
 }
+
 .foto img {
   border-radius: 50%;
 }
+
 .texto {
   text-align: center;
 }
+
 /* portafolio------------------------------ */
 #portafolio {
   grid-area: portafolio;
 }
+
 /* ---about---------------------------------- */
 #bio {
   grid-area: bio;
 }
-.parrafo{
+
+.bio {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  width: 80px;
+  margin: 10px;
+}
+
+.parrafo {
   text-align: justify;
   width: 50%;
   padding: 20px;
@@ -106,6 +127,7 @@ marmol #f8f1ff */
 #contacto {
   grid-area: contacto;
 }
+
 /* mediaueriz------------------------------ */
 @media (max-width: 768px) {
   .lista {
@@ -121,20 +143,41 @@ marmol #f8f1ff */
   html {
     font-size: 1rem;
   }
-  .foto img{
+  .bio{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .parrafo{
+    width: 90%;
+  }
+  .logos img {
+    width: 40px;
+  }
+  .foto img {
     width: 200px;
   }
 }
+
 /* -----varios------------------ */
 .mostrar-lista {
   display: flex;
 }
+
 .titulo {
   margin: 70px 0;
   font-size: 2rem;
   text-align: center;
 }
+
 .fondo {
   background-color: #e7edff;
-  
+}
+
+.sombra {
+  border-radius: 22px;
+  background: #e7edff;
+  box-shadow: 22px 22px 44px #bbc0cf,
+    -22px -22px 44px #ffffff;
 }
