@@ -114,10 +114,6 @@ marmol #f8f1ff */
   cursor: pointer;
 }
 
-.articulo img {
-  width: 250px;
-}
-
 .articulo:hover {
   padding: 15px;
   transition: 0.2s ease-in-out;
@@ -209,6 +205,9 @@ marmol #f8f1ff */
   .form h2 {
     text-align: center;
     padding: 10px;
+  }
+  .articulo img {
+    width: 250px;
   }
 }
 
