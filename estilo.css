@@ -111,10 +111,13 @@ marmol #f8f1ff */
 .articulo {
   padding: 20px;
   text-align: center;
-  cursor: pointer;
 }
+
 .articulo a {
   color: black;
+}
+.articulo a:hover{
+  border-bottom: 2px solid black;
 }
 
 /* ---about---------------------------------- */
@@ -204,6 +207,7 @@ marmol #f8f1ff */
     text-align: center;
     padding: 10px;
   }
+
   .articulo img {
     width: 250px;
   }
