@@ -114,12 +114,15 @@ marmol #f8f1ff */
 }
 
 .link:hover {
-  border-bottom: 2px solid black;
-  
+  background-color: black;  
+  border-radius: 6px;
 }
 
 .link a {
   color: black;
+}
+.link a:hover {
+  color: white;
 }
 
 /* ---about---------------------------------- */
