@@ -113,11 +113,13 @@ marmol #f8f1ff */
   text-align: center;
 }
 
-.articulo a {
-  color: black;
-}
-.articulo a:hover{
+.link:hover {
   border-bottom: 2px solid black;
+  
+}
+
+.link a {
+  color: black;
 }
 
 /* ---about---------------------------------- */
