@@ -113,10 +113,8 @@ marmol #f8f1ff */
   text-align: center;
   cursor: pointer;
 }
-
-.articulo:hover {
-  padding: 15px;
-  transition: 0.2s ease-in-out;
+.articulo a {
+  color: black;
 }
 
 /* ---about---------------------------------- */
