@@ -1,106 +1,119 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- boxicon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="estilo.css" />
+    <title>José Sánchez</title>
+    <!-- icon -->
+    <link
+      rel="shortcut icon"
+      href="./img/icono-pestaña.ico"
+      type="image/x-icon"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- boxicon -->
-  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-  <!-- font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" />
-  <!-- css -->
-  <link rel="stylesheet" href="estilo.css" />
-  <title>José Sánchez</title>
-  <!-- icon -->
-  <link rel="shortcut icon" href="./img/icono-pestaña.ico" type="image/x-icon">
-</head>
-
-<body>
-  <div class="contenedor">
-    <header id="header">
-      <nav class="navbar">
-        <div class="navbox">
-          <div class="lista">
-            <a href="#inicio">Inicio</a>
-            <a href="#portafolio">Portafolio</a>
-            <a href="#bio">About</a>
-            <a href="#contacto">Contacto</a>
+  <body>
+    <div class="contenedor">
+      <header id="header">
+        <nav class="navbar">
+          <div class="navbox">
+            <div class="lista">
+              <a href="#inicio">Inicio</a>
+              <a href="#portafolio">Portafolio</a>
+              <a href="#bio">About</a>
+              <a href="#contacto">Contacto</a>
+            </div>
+            <div class="menu-ico">
+              <i class="bx bx-menu"></i>
+            </div>
           </div>
-          <div class="menu-ico">
-            <i class="bx bx-menu"></i>
+        </nav>
+      </header>
+      <section id="inicio">
+        <div class="texto">
+          <h1>¡Hola!</h1>
+          <h2>soy José Sánchez</h2>
+          <h4>Programador Front-end</h4>
+        </div>
+        <div class="foto">
+          <img src="./img/foto-toon.png" width="300px" alt="" />
+        </div>
+      </section>
+      <section id="portafolio" class="fondo">
+        <h1 class="titulo">Portafolio</h1>
+        <div class="porta-box">
+          <article class="sombra articulo">
+            <img src="./capturas/clima-edit.jpg" height="195px" width="400px" />
+            <div class="link">
+              <a
+                href="https://jose-sanchez-clima-app.netlify.app/"
+                target="_blank"
+              >
+                <h3>Clima App</h3>
+              </a>
+            </div>
+          </article>
+          <article class="sombra articulo">
+            <img src="./capturas/cafe-edit.jpg" alt="" width="400px" />
+            <div class="link">
+              <a href="./paginas/Cafe-del-valle/index.html" target="_blank">
+                <h3>Cafeteria</h3>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="bio" class="fondo">
+        <h1 class="titulo">About</h1>
+        <div class="bio">
+          <p class="parrafo sombra">
+            ¿Que tal? soy jose, programador y desarrollador web en la parte
+            front end con estudios de manera autodidacta, todo esto gracias al
+            amplio conocimiento e informacion que existe en la web de forma
+            gratuita, por esto he obtenido la capacidad para desarrollar paginas
+            web agradables visualmente y responsivas.
+          </p>
+          <div class="logos sombra">
+            <div>
+              <img src="./img/html-5.png" alt="" />
+              <img src="./img/css-3.png" alt="" />
+              <img src="./img/js.png" alt="" />
+            </div>
+            <div>
+              <img src="./img/react.png" alt="" />
+              <img src="./img/github.png" alt="" />
+              <img src="./img/visual-studio.png" alt="" />
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <section id="inicio">
-      <div class="texto">
-        <h1>¡Hola!</h1>
-        <h2>soy José Sánchez</h2>
-        <h4>Programador Front-end</h4>
-      </div>
-      <div class="foto">
-        <img src="./img/foto-toon.png" width="300px" alt="" />
-      </div>
-    </section>
-    <section id="portafolio" class="fondo">
-      <h1 class="titulo">Portafolio</h1>
-      <div class="porta-box">
-        <article class="sombra articulo">
-          <img src="./capturas/clima-edit.jpg" height="195px" width="400px">
-          <div class="link">
-            <a href="https://jose-sanchez-clima-app.netlify.app/" target="_blank">
-              <h3>Clima App</h3>
-            </a>
-          </div>
-        </article>
-        <article class="sombra articulo">
-          <img src="./capturas/cafe-edit.jpg" alt="" width="400px">
-          <div class="link">
-            <a href="./paginas/Cafe-del-valle/index.html" target="_blank">
-              <h3>Cafeteria</h3>
-            </a>
-          </div>
-        </article>
-      </div>
-    </section>
-    <section id="bio" class="fondo">
-      <h1 class="titulo">About</h1>
-      <div class="bio">
-        <p class="parrafo sombra">
-          ¿Que tal? soy jose, programador y desarrollador web en la parte front end con estudios de manera autodidacta,
-          todo esto gracias al amplio conocimiento e informacion que existe en la web de forma gratuita,
-          por esto he obtenido la capacidad para desarrollar paginas web agradables visualmente y responsivas.
-        </p>
-        <div class="logos sombra">
-          <div>
-            <img src="./img/html-5.png" alt="">
-            <img src="./img/css-3.png" alt="">
-            <img src="./img/js.png" alt="">
-          </div>
-          <div>
-            <img src="./img/react.png" alt="">
-            <img src="./img/github.png" alt="">
-            <img src="./img/visual-studio.png" alt="">
-          </div>
+      </section>
+      <section id="contacto" class="fondo">
+        <h1 class="titulo">Contacto</h1>
+        <div class="form sombra">
+          <h2>¿Cuentame como podria Ayudarte?</h2>
+          <p>
+            Tienes algun proyecto en mente o te interesas por mis servicios en
+            tu empresa, ¡hablemos! te respondere los antes posible.
+          </p>
+          <h3>josecodesanchez@gmail.com</h3>
         </div>
-      </div>
-    </section>
-    <section id="contacto" class="fondo">
-      <h1 class="titulo">Contacto</h1>
-      <div class="form sombra">
-        <h2>¿Cuentame como podria Ayudarte?</h2>
-        <p>
-          Tienes algun proyecto en mente o te interesas por mis servicios en tu empresa, ¡hablemos! te respondere los
-          antes posible.
-        </p>
-        <h3>josecodesanchez@gmail.com</h3>
-      </div>
-    </section>
-  </div>
-  <script src="./code.js"></script>
-</body>
-
+      </section>
+    </div>
+    <script src="./code.js"></script>
+  </body>
 </html>
